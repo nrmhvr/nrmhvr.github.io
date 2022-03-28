@@ -27,11 +27,17 @@
       </div>
       <div class="center aligned content">
         <div class="description">
-          Interests:
-          {% for interest in site.data.bio.interests %}
+          💻 Working with 💻
+        </br>
+          <!-- {% for interest in site.data.bio.interests %}
             {{ interest.name }}{% if forloop.last != true %}, {% endif %}
-          {% endfor %}
-
+          {% endfor %} -->
+          <img src="https://img.shields.io/badge/c%23-%23239120.svg?logo=c-sharp&logoColor=black&color=FFFFFF"/> 
+          <img src="https://img.shields.io/badge/html5-%23E34F26.svg?logo=html5&logoColor=black&color=FFFFFF"/> 
+          <img src="https://img.shields.io/badge/javascript-%23323330.svg?logo=javascript&logoColor=black&color=FFFFFF"/> 
+          <img src="https://img.shields.io/badge/MS%20SQL%20Sever-CC2927?logo=microsoft%20sql%20server&logoColor=black&color=FFFFFF"/> 
+          <img src="https://img.shields.io/badge/.NET-5C2D91?logo=.net&logoColor=black&color=FFFFFF"/> 
+          <img src="https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?logo=visual-studio&logoColor=black&color=FFFFFF"/> 
         </div>
       </div>
       <div class="center aligned extra content">
@@ -41,9 +47,9 @@
         <a href="{{ site.baseurl}}/projects/">
           <button class="ui basic button">Projects ({{ num_projects }})</button>
         </a>
-        <a href="{{ site.baseurl}}/essays/">
+        <!-- <a href="{{ site.baseurl}}/essays/">
           <button class="ui basic button">Essays ({{ num_essays }})</button>
-        </a>
+        </a> -->
         <a href="{{ site.baseurl}}/bio/">
           <button class="ui basic button">{{ site.bio-page-label }}</button>
         </a>

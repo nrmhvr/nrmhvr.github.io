@@ -3,21 +3,24 @@
 {% if site.data.bio.awards %}
 <div class="row">
   <div class="two wide column">
-    <h3 class="ui left aligned header no-bottom">Awards</h3>
+    <h3 class="ui left aligned header no-bottom">License</h3>
   </div>
 
   <div class="fourteen wide column no-bottom">
     {% for entry in site.data.bio.awards %}
 
     <div class="ui grid">
-      <div class="sixteen wide column no-bottom">
+      <div class="twelve wide column no-bottom">
         <p class="ui no-bottom">
-          <b>{{ entry.title }}</b>, {{ entry.awarder }}{% if entry.date %}, {{ entry.date }}{% endif %}
+          <b>{{ entry.title }}</b> {{ entry.title_eng }}
         </p>
-        <p class="ui">{{ entry.summary }}</p>
+      </div>
+      <div class="four wide right aligned column no-bottom">
+        <p class="ui no-bottom"><b>
+          {{ entry.date }}
+          </b></p>
       </div>
     </div>
-
     {% endfor %}
   </div>
 </div>
