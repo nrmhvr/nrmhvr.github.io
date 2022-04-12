@@ -1,16 +1,11 @@
 <!-- PDF Download -->
-<div style="text-align: center;margin-top: 10px; ">
-  <button id="download" style="display: inline-block;" class="ui button" onclick="return downloadPDF()">Download</button>
-  <script src="https://unpkg.com/html2canvas@1.0.0-rc.5/dist/html2canvas.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.7.2/bluebird.min.js"></script>
-  <script src="../js/custom/html2pdf.js"></script>
+<div style="text-align:center;margin-top:10px;">
+  <a class="ui button" style="display: inline-block;" href="../images/YeonWooKwon_Resume.pdf" download>Download</a>
 </div>
-
 
 <div style="margin-top: 10px; " class="ui stackable grid container pdf_pages">
 
-  <div class="sixteen wide column no-bottom ">
+  <div class="sixteen wide column no-bottom">
     <h2 class="ui center aligned header no-bottom">{{ site.data.bio.basics.name_ko }}</h2>
   </div>
   <div class="eight wide left aligned column">
@@ -31,16 +26,3 @@
   <hr width="100%"/>
   {% include bio-personal-project-1.html %}
 </div>
-
-<script>
-  let browserPoint = (event)=>{
-      console.log(`브라우저 좌표 : (${event.pageX}, ${event.pageY})`);
-  }
-  let clientPoint = (event) =>{
-      console.log(`화면 좌표 : (${event.clientX}, ${event.clientY})`);
-  }
-  window.addEventListener('click',e=>{
-      browserPoint(e);
-      clientPoint(e);
-  });
-</script>

@@ -29,7 +29,8 @@ function downloadPDF(){
                 cur_height += sorted[i].height;
             }
         }
-        //doc.textWithLink('test', 50, 100, { url: 'http://github.com/nrmhvr'});
+
+        // 저장
         doc.save('Resume_KYW.pdf');
     
         // init
