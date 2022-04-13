@@ -13,6 +13,7 @@ body {
 
 // Default menubar color
 .ui.menu {
+  color: lighten(silver, 10%);
   background: lighten(silver, 10%);
 }
 
@@ -20,7 +21,6 @@ body {
 .icon-color {
   color: darken(silver, 40%);
 }
-
 
 // Prefer space between list items in screen mode.
 .list-padding {
@@ -32,8 +32,4 @@ body {
 .no-bottom {
   margin-bottom: 0px !important;
   padding-bottom: 0px !important;
-}
-
-.link-color {
-  color:rgb(0, 153, 224);
 }

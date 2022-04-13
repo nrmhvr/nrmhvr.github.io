@@ -7,7 +7,7 @@
 
 // Customize the background color
 body {
-  // background-color: #f2f2f2;;
+  background-color: black;
 }
 
 // Customize the menubar color
@@ -20,3 +20,18 @@ body {
   // color: silver;
 }
 
+.link-color {
+  color:rgb(0, 153, 224);
+}
+
+// Background
+#space {
+  position: absolute;
+	top: 0;
+	left: 0;
+  background: #000000;
+}
+.ui.back-shadow,
+.ui.cards > .card {
+  box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.8)
+}
