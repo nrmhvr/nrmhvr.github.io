@@ -4,9 +4,15 @@
   {% include head.html %}
 
   <body>
-    <canvas id="space"></canvas>
-    {{ content }}
-    {% include footer.html %}
+    <div class="container">
+      <div class="sky">
+        {{ content }}
+        {% include footer.html %}
+        <div class="stars"></div>
+        <div class="stars1"></div>
+        <div class="stars2"></div>
+        <div class="shooting-stars"></div>
+      </div>
+    </div>
   </body>
-
 </html>
