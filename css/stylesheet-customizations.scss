@@ -3,22 +3,17 @@
 ---
 
 // Put your custom CSS here if you want to override the defaults.
-// Here are some common customizations for colors
 
-// Customize the background color
-body, .ui.skycolor {
-  background-color: #201b46 ;
-  //background: linear-gradient(to bottom, #020107 0%, #201b46 100%);
+body {
+  //background-color: #201b46 ;
+  background-color: #f2f2f2;
 }
 
 // Customize the menubar color
 .ui.menu {
-  // background: $background-start;
-}
-
-// Customize the home page icon colors
-.icon-color {
-  // color: silver;
+  color: lighten(silver, 10%);
+  background: lighten(silver, 10%);
+  //background: #E0E1E2;
 }
 
 .link-color {
@@ -26,9 +21,9 @@ body, .ui.skycolor {
 }
 
 // light
-.ui.back-shadow,
-.ui.cards > .card {
-  box-shadow: 0px 0px 8px 0.5px rgba(255, 255, 255, 0.8)
+.ui.back-shadow, .ui.cards > .card
+ {
+  box-shadow: 0px 0px 8px 0.5px rgba(255, 255, 255, 0.8);
 }
 
 
@@ -51,14 +46,14 @@ html body {
   margin: 0;
 }
 
-.container {
+.back-container {
   display: block;
   position: relative;
   width: 100%;
   height: 100%;
   background: linear-gradient(to bottom, #020107 0%, #201b46 100%);
 }
-.container .text {
+.back-container .text {
   color: #FFF;
   position: absolute;
   top: 50%;
