@@ -1,0 +1,64 @@
+{
+  "basics": {
+    "name": "TEST",
+    "name_ko": " ",
+    "label": " ",
+    "picture": "/images/mooncat.jpg",
+    "email": " ",
+    "phone": "",
+    "website": "https://nrmhvr.github.io",
+    "summary": "TEST 중입니다.",
+    "summary_short": "",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "KOREA",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "github",
+        "username": " ",
+        "url": " "
+      }
+    ]
+  },
+  "interests": [
+    {
+      "name": "internet of things",
+      "keywords": [
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "level": "",
+      "keywords": [
+        "C#",
+        "Java",
+        "Javascript",
+        "HTML",
+        "SQL"
+      ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "level": "",
+      "keywords": [
+        "Windows",
+        "Linux",
+        "Git/GitHub"
+      ]
+    }
+  ],
+  "personal_project": [
+    {
+      "title": "수정예정입니다",
+      "title_eng" : "",
+      "date": "",
+      "summary": ""
+    }
+  ]
+}
